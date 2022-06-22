@@ -2,6 +2,8 @@ from flask import Flask, render_template, request
 import pickle
 import pandas as pd
 import numpy as np
+import nltk
+nltk.download('punkt')
 
 app = Flask(__name__)
 
