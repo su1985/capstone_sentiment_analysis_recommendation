@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title> Product Recommeder </title>
+    </head>
+    <body>
+        <h1> Product Recommender </h1>
+    </body>
+    <form action= "#" method= "post">
+        <p>Enter Username to get product recommendations:</p>
+        <p><input type= "text" name= "username" /></p>
+        <p><input type= "submit" value= "submit" /></p>
+    </form>
+    <br/>
+    <br/>
+
+    {% if user %}
+    <h3>Top product recommendations for user: {{ user }}</h3>
+        <ol>
+            {% if cnt == 0 %}
+                <p>User Not found. Try with a different input!</p>
+        
+            {% else %}
+
+                {%for i in range(0, cnt)%}
+                    <li>{{resp[i]}}</li>
+                {%endfor%}
+
+            {% endif %}
+            
+        </ol>
+    {% endif %}
+</html>
