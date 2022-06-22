@@ -41,7 +41,7 @@ colorama==0.4.4
 conda==4.3.16
 conda-build==2.1.5
 conda-content-trust==0.1.2
-conda-package-handling==1.8.1
+#conda-package-handling==1.8.1
 conda-repo-cli==1.0.4
 conda-token==0.3.0
 conda-verify==3.4.2
