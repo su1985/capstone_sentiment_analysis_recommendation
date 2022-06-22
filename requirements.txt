@@ -1,5 +1,6 @@
 beautifulsoup4==4.9.3
 Flask==1.1.2
+gensim==4.2.0
 h5py==2.10.0
 HeapDict==1.0.1
 html5lib==1.1
