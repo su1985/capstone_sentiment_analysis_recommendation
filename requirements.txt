@@ -38,3 +38,5 @@ urllib3==1.26.4
 wheel==0.36.2
 wordcloud==1.8.1
 xgboost==1.6.1
+itsdangerous==1.1.0
+json5==0.9.5
