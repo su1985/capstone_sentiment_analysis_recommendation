@@ -75,7 +75,7 @@ h5py==2.10.0
 HeapDict==1.0.1
 html5lib==1.1
 idna==2.10
-imageio==2.9.0
+#imageio==2.9.0
 imagesize==1.2.0
 imbalanced-learn==0.9.1
 importlib-metadata==3.10.0
