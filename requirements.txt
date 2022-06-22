@@ -175,7 +175,7 @@ PyJWT==2.1.0
 pylint==2.7.4
 pyls-black==0.4.6
 pyls-spyder==0.3.2
-pyodbc==4.0.0-unsupported
+pyodbc==4.0.32
 pyOpenSSL==20.0.1
 pyparsing==2.4.7
 pyrsistent==0.17.3
